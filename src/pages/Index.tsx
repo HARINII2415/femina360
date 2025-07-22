@@ -1,3 +1,4 @@
+import heroAvatar from "@/assets/hero-avatar.jpg";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -134,21 +135,24 @@ const Index = () => {
             </div>
 
             {/* Hero Image */}
-            <div className="relative animate-slide-up">
-              <div className="relative overflow-hidden rounded-2xl bg-gradient-secondary p-8 shadow-card">
-                <div className="w-full h-64 bg-gradient-primary rounded-xl flex items-center justify-center">
-                  <Shield className="h-24 w-24 text-white opacity-80" />
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent rounded-2xl" />
-                
-                {/* Floating Emergency Indicators */}
-                <div className="absolute top-6 right-6 animate-pulse-glow">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-emergency shadow-emergency">
-                    <Zap className="h-6 w-6 text-white" />
-                  </div>
-                </div>
-              </div>
-            </div>
+           <div className="relative animate-slide-up">
+  <div className="relative overflow-hidden rounded-2xl bg-gradient-secondary p-8 shadow-card">
+    <img 
+      src={heroAvatar} 
+      alt="Empowering Protection" 
+      className="w-full h-auto rounded-xl"
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent rounded-2xl" />
+    
+    {/* Floating Emergency Indicators */}
+    <div className="absolute top-6 right-6 animate-pulse-glow">
+      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-emergency shadow-emergency">
+        <Zap className="h-6 w-6 text-white" />
+      </div>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
       </section>
