@@ -1,6 +1,8 @@
 # 🛡️ Femina360 – Your Digital Guardian
 
-![Femina360 Banner](assets/women.jpeg)
+![Femina360 Banner](src/assets/women.jpeg)
+
+
 [Watch Live Now](https://femina360.netlify.app/)
 
 Femina360 is an advanced women safety app that empowers users with instant emergency alerts, AI-powered features, and a modern user-friendly interface.  
