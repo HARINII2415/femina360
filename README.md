@@ -70,19 +70,21 @@ Copy
 Edit
 npm run dev
 
-📦 Features Planned / In Progress
+📦 Features 
 
- Shake detection with video/audio upload 📷🎤
+ - Shake detection with video/audio upload 📷🎤
 
- Voice trigger emergency 🚨
+ - Voice trigger emergency 🚨
 
- Forgot password with OTP 🔑
+ - Forgot password with OTP 🔑
 
- Auto-call emergency contact 📞
+  🫧  In Progress
 
- AI-driven mood & location risk detection 🧠📍
+ - Auto-call emergency contact 📞
 
- Dark mode toggle 🌙
+ - AI-driven mood & location risk detection 🧠📍
+
+ - Dark mode toggle 🌙
 
 👩‍💻 Contributing
 Pull requests & suggestions welcome!
